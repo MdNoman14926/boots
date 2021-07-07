@@ -1,0 +1,357 @@
+
+
+/*navbar style sheet*/
+
+#top_nav{
+    background-color: #daac00 !important;
+    padding: 0 9%;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.55);
+    font-size: 20px;
+    margin-left: 47px;
+}
+#searchbox::placeholder{
+    color: white;
+}
+#searchbox{
+    background-color: #fcc302;
+    border: 0px;
+    border-radius: 0;
+    position: relative;
+    left: 47px;
+    box-shadow: -5px 3px 9px gray;
+}
+#searchbtn{
+    position: relative;
+    z-index: 99;
+    border: 0;
+    border-radius: none;
+    background-color: #00bec9;
+    height: 41px;
+    color: white;
+    
+}
+
+
+
+
+
+@media only screen and (max-width:768px){
+    #search_from{
+        position: relative;
+        padding-top: 50px;
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (max-width:500px) {
+    #top_nav{
+        padding: 0px;
+        padding-bottom: 16px;
+        
+    }
+    #search_from{
+        margin-top: -25px;
+    }
+    #logo{
+        width: 150px;
+    }
+}
+
+/*Banner Part Style*/
+
+#banner{
+    background-color: #fcc302;
+}
+#banner_text h1{
+    font-size: 65px;
+    margin-top: 100px;
+    color: white;
+}
+#banner_text p {
+    color: white;
+    font-size: 30px;
+    margin-top: 45px;
+}
+#banner_text #button-1{
+    background-color: #00bec9;
+    padding: 13px;
+    color: white;
+    margin-top: 10px;
+}
+#banner_text #button-2{
+    background-color: none;
+    padding: 12px;
+    color: white;
+    border: 2px solid white;
+    margin-top: 10px;
+    margin-left: 35px;
+    
+}
+
+@media only screen and (max-width:502px){
+    #banner_text h1{
+        font-size: 40px;
+    }
+    #banner_text p{
+        font-size: 25px;
+    }
+    #banner{
+        padding-top: 8px;
+        padding-bottom: 35px;
+    }
+}
+@media only screen and (max-width:1004px){
+    #banner_text h1{
+        font-size: 35px;
+    }
+    #banner_text p{
+        font-size: 20px;
+    }
+    #banner_img{
+        margin-top: 35px;
+    }
+}
+
+@media only screen and (max-width:872px){
+    #banner{
+        padding-bottom: 60px;
+    }
+    #banner_img{
+        margin-top: 35px;
+    }
+}
+@media only screen and (max-width:1084px){
+    #banner{
+        padding-bottom: 40px;
+    }
+}
+
+/*Services Start*/
+
+#services{
+    background-color: white;
+    margin-top: 5%;
+}
+#services-text{
+    margin-top: 5%;
+}
+
+#services-text h1{
+
+}
+#services-text p{
+    font-size: 25px;
+    margin-top: 10px;
+}
+#services-btn{
+    color: white;
+    background-color: #fcc302;
+    padding: 10px;
+}
+
+@media only  screen and (max-width:767px) {
+    #services-img{
+            margin-top: 40px;
+            width: 500px;
+    }
+    #services-text h1 p{
+        padding: 0;
+    }
+}
+
+/*Title Start*/
+
+#title{
+    background-color: #fcc302;
+    margin-top: 30px;
+
+    
+}
+#title-text{
+    margin-top: 5%;
+}
+#title-text h1{
+    font-weight: bold;
+    color: white;
+    font-size: 60px;
+}
+#title-text p{
+    color: white;
+    font-size: 25px;
+}
+
+/*petgirl*/
+
+#petgirl{
+    margin-top: 5%;
+}
+#petgirl h4{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 20px;
+}
+#petgirl p{
+    color: white;
+    font-size: 25px;
+}
+#mid-img{
+    width: 95%;
+}
+
+@media only screen and (max-width:1105px) {
+    #petgirl h4{
+        padding: 0;
+        font-size: 30px;
+    }
+    #petgitl p{
+        padding: 0;
+        font-size: 17px;
+    }
+}
+
+
+/*Services2*/
+#sec2-img{
+    margin-top: 5%;
+}
+#sec2-text{
+    margin-top: 5%;
+}
+#sec2-text h2{
+    font-size: 56px;
+    font-weight: bold;
+}
+#sec2-text p{
+    font-weight: normal;
+    font-size: 25px;
+    margin-top: 20px;
+    word-spacing: 3px;
+}
+#sec2-btn{
+    background-color: #fcc302;
+    color: white;
+    margin-left: 20px;
+    text-align: justify;
+    font-size: 30px;
+}
+
+@media only screen and (max-width:500px){
+    #sec2-text h2{
+        font-size: 30px;
+    }
+    #sec2-text p{
+        font-size: 20px;
+    }
+    #sec2-btn{
+        padding: 5px;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:892px) {
+    #sec2-text h2{
+        font-size: 32px;
+    }
+    #sec2-text p{
+        font-size: 22px;
+    }
+    #sec2-btn{
+        padding: 8px;
+        font-size: 20px;
+    }
+}
+
+/*Title 2 Strart*/
+
+#title2{
+    background-color: #fcc302;
+    margin-top: 10%;
+}
+#title2-text h1{
+    color: white;
+    font-weight: bold;
+    font-size: 70px;
+}
+#title2-text p{
+    color: white;
+    font-size: 30px;
+    margin-top: 5px;
+}
+#title2-btn{
+    background-color: #00bec9;
+    color: white;
+    padding: 11px 32px;
+    border: none !important;
+    border-radius: 15px;
+    margin-top: 20px;
+    
+}
+@media only screen and (max-width:500px){
+    #title2-btn{
+        margin: 15px;
+    }
+}
+
+/* Team Section*/
+
+#dc{
+    margin-top: 5%;
+}
+#team{
+    background-color:white;
+}
+#team-head h1{
+   font-weight: bold;
+   font-size: 50px;
+}
+#team-head p{
+    font-size: 30px;
+    margin-top: 20px;
+}
+#logo #fb{
+    background-color: #f3c321;
+    padding: 3px;
+    color: white;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+#ftr{
+    background: black;
+    padding: 10px;
+}
+#c1 h2{
+    color: white;
+    margin-top: 5px;
+}
+#c1 p{
+    color: white;
+    margin-top: 10px;
+}
+
+#c2 h2{
+    color: white;
+    margin-top: 5px;
+}
+#c2 p{
+    color: white;
+    margin-top: 10px;
+}
+#c3 h2{
+    color: white;
+    text-align: end;
+}
+#c3 p{
+    color: white;
+    text-align: end;
+    font-size: 20px;
+}
+
+@media only screen and(max-width:500){
+    #c1 #c2 #c3 h2{
+        text-align: center;
+    }
+}
